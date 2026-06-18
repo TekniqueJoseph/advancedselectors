@@ -8,14 +8,22 @@
     <script src="script.js" defer></script>
 </head>
 <body>
-    <a href="">Click Here</a><br>
-    <a href="">Click Here</a>
-
+    <a href="#para1">Click Here</a><br>
+    <a href="#para2">Click Here</a>
+    <a href="https://www.att.com" target="_blank">Click Here</a>
+    
     <div>
         <p id="para1" lang="fr">This is a paragraph</p>
         <p id="para2">This is another paragraph</p>
         <div><b>This is a div</b></div>
         <p>This is another paragraph</p>
+        <p></p>
+    </div>
+    <div>
+        <div>
+            <p>All</p>
+        </div>
+
     </div>
 
     <ul>
@@ -43,13 +51,13 @@
     <form action="">
         <label for="heading">Contact Us</label>
         <input type="text" name="username" placeholder="Enter User Name">
-        <input type="email" name="email" placeholder="Enter Email Address">
+        <input type="email" name="email" placeholder="Enter Email Address" required>
         <input type="tel" name="phonenumber" disabled>
         <input type="radio" name="gender" value="Male" id="male" class="choice" checked>
         <label for="male">Male</label>
         <input type="radio" name="gender" value="Female" id="female" class="choice">
         <label for="female">Female</label>
-        <input type="submit" id="btn">
+        <button id="btn">Submit</button>
     </form>
 
 
