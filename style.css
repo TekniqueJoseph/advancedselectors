@@ -18,7 +18,8 @@ li{
 form{
     padding: 8px;
     border: 5px solid mediumseagreen;
-    width: 375px;
+    width: 300px;
+    background-color: whitesmoke;
 }
 input{
     display: block;
@@ -34,3 +35,10 @@ input{
     margin-top: 12px;
     width: 84px;
 }
+#btn:hover { 
+background-color: mediumseagreen; 
+color: white;
+cursor: pointer;
+}  
+
+
